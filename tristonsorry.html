@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+  <html>
+
+  <!-- load CSS -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <style>
+    body {
+      background-image: url('images/highway.jpg');
+      width: 50%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100%;
+    }
+</style>
+  <!-- This style sheet is not mine. I do not take credit for this stylesheet whatsoever. -->
+  <HEAD>
+    <TITLE> Triston’s Sweet, Not Last Minute Webpage! </TITLE>
+  </HEAD>
+
+  <audio id="Highway">
+  <source src="Audio/Highway.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+  <button onclick="myFunction()">The Play Button!</button>
+
+  <script>
+
+            alert("ALERT: You Are on a website that doesn't exist.");
+            alert("ALRRT: This may potentially cause a virus.");
+            alert("ALERT: You will be redirected to another website, just click the play button!");
+
+            var x = document.getElementById("Highway");
+
+            function myFunction() {
+              x.play();
+              setTimeout(function() {window.location.href = 'example.html';}, 9000)
+            }
+
+
+    </script>
+
+
+
+  </body>
+
+</HTML>
